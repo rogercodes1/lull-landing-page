@@ -22,8 +22,11 @@ a {
   text-decoration: none;
   color: white;
 }
+p {
+  font-size: 48px;
+}
 
-
+/*Top lion card with mattress  */
 .header {
   margin: 0 auto;
   font-weight: 900;
@@ -122,7 +125,7 @@ a {
   padding-top: 60px;
   text-align: left;
 }
-#jungle-box-img{
+#jungle-cat-box-img{
   height: 450px;
   width: 250px;
   margin-left: 90px;
@@ -134,7 +137,6 @@ a {
 }
 .heading2{
   font-size: 72px;
-  /* margin-bottom: 60px; */
   font-weight: 900;
 }
 .heading2 > span {
@@ -142,21 +144,9 @@ a {
 
 }
 
-p {
-  font-size: 48px;
-}
-p.lulls-premium{
+
+p.cat-box-para{
   margin: 50px auto 70px auto;
-}
-
-
-.see-the-mattress-card{
-  font-size: 3em;
-  margin: 0 auto;
-  width: 100%;
-  text-align: center;
-  font-weight: 900;
-  height: 1100px;
 }
 
 .contact-card{
