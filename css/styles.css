@@ -1,6 +1,3 @@
-/* initial setup */
-
-
 /* Web Palette */
 /*
 Navy - #0B2836
@@ -8,17 +5,96 @@ Turquoise - #56DBD6
 Pink - #F72351
 */
 
+/* initial setup */
 
-
-html {
+/* App */
+html{
   box-sizing: border-box;
+  font-family: Avenir;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+.header{
+  font-size: 3em;
+  margin: 0 auto;
+  width: 100%;
+  font-weight: 900;
+  height: 1100px;
+  background-color: rgb(192, 193, 198);
+}
+
+#logo{
+  transform: translate(-50%, 0%);
+  margin: 0 50%;
+  width: 200px;
+  height: 200px;
+}
+#title-meet{
+  color: #0B2836;
+  font-size: 2em;
+  font-weight: 700;
+  margin: 50px auto;
+  margin-bottom: 280px;
+}
+.title-span{
+  padding: -25px 0;
+}
+
+.see-mattress-btn{
+  background-color: #F72351;
+  color: white;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding: 50px 100px;
+  width: 80%;
+  border-radius: 10px;
+}
+
+/* Section 2 */
+.info-card{
+  height: 900px;
+  padding: 100px 50px;
+}
+.subheading{
+  font-size: 4em;
+  margin-bottom: 60px;
+}
+.subheading > span {
+  display: block;
+  font-weight: 700;
+}
+
+p {
+  font-size: 3em;
 }
 
 
-.mobile-cont{
-  /* width: 420px; */
-  background-color: grey;
+/*Universal classes */
+.uppercase{
+  text-transform: uppercase;
 }
+.center{
+  text-align: center;
+}
+
+.see-the-mattress-card{
+  font-size: 3em;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  font-weight: 900;
+  height: 1100px;
+}
+/*Additional CSS  */
+
+/*  Fonts*/
+/* @font-face {
+    font-family: Avenir;
+    src: url(./Avenir400Roman.ttf);
+} */
