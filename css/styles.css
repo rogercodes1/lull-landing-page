@@ -90,8 +90,20 @@ a{
 }
 .most-comfortable-heading{
   display: grid;
-  grid-template-columns: 82% 18%;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: 80%;
 
+}
+.most-comfortable-heading-part1{
+  padding-top: 70px;
+  margin-bottom: 0px !important;
+}
+.most-comfortable-headin-part2{
+  margin-top: -50px;
+
+}
+#sleep-icon{
+  width:250px;
 }
 .people-love-lull-title{
   display: grid;
@@ -128,7 +140,7 @@ a{
 }
 .heading2{
   font-size: 72px;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
   font-weight: 900;
 }
 .heading2 > span {
@@ -154,10 +166,15 @@ p.lulls-premium{
 }
 
 .contact-card{
-  background-color:#0B2836;
   color: white;
   height: 1100px;
   padding: 50px;
+  background:linear-gradient(
+    0deg,
+    rgb(11, 40, 54, .8),
+    rgb(11, 40, 54, .8)),
+    url("../images/people.jpg") no-repeat left bottom;
+  background-size: cover;
 }
 .contact-title{
   margin-bottom: 30px;
@@ -176,6 +193,7 @@ p.lulls-premium{
   margin: 120px auto 80px auto;
   font-size: 52px;
   font-weight: 500;
+
 }
 .contact-left-info{
   grid-template-columns: 100%;
@@ -221,7 +239,9 @@ li a {
 }
 
 /*CSS helpers  */
-
+.mb60{
+  margin-bottom: 60px;
+}
 .right{
   text-align: right;
 }
