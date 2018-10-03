@@ -33,7 +33,7 @@ body{
 }
 
 #logo{
-  transform: translate(0%, 0%);
+  /* transform: translate(0%, 0%); */
   /* margin: 0 50%; */
   width: 200px;
   height: 200px;
@@ -70,7 +70,6 @@ a{
 
 .info-card{
   margin: 0 auto;
-
   width: 100%;
   height: 900px;
   padding: 100px 50px;
@@ -79,19 +78,24 @@ a{
   display: grid;
   grid-template-columns: 30% 70%;
 }
-.jungle-box{
-  align-content: center;
+#jungle-box-img{
+  height: 450px;
+  width: 250px;
 }
-.subheading{
-  font-size: 4em;
+.heading2{
+  font-size: 72px;
   margin-bottom: 60px;
+  font-weight: 700;
 }
-p > span {
+.heading2 > span {
   display: block;
 }
 
 p {
   font-size: 48px;
+}
+p.lulls-premium{
+
 }
 
 
@@ -115,7 +119,7 @@ p {
 .contact-card{
   background-color:#0B2836;
   color: white;
-  height: 1050px;
+  height: 1100px;
   padding: 50px;
 }
 .contact-title{
@@ -132,7 +136,9 @@ p {
   font-size: 36px;
   height: 400px;
   width: 90%;
-  margin: 0 auto;
+  margin: 120px auto 80px auto;
+  font-size: 52px;
+  font-weight: 500;
 }
 .contact-left-info{
   grid-template-columns: 100%;
@@ -140,16 +146,36 @@ p {
 
 }
 .contact-left-info > .contact-text{
-  border: 2px solid #56DBD6;
-  margin: auto;
+  border: 7px solid #56DBD6;
+  /* margin: auto; */
+  vertical-align: middle;
+  line-height: 200px;
   height: 200px;
 }
 .contact-right-faq{
-  border: 2px solid #56DBD6;
+  border: 7px solid #56DBD6;
+  vertical-align: middle;
+  line-height: 400px;
+  height: 400px;
 
 }
 
-ul{
+/*footer  */
+
+.footer-list{
   list-style: none;
   font-size: 2em;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-content: space-evenly;
+  text-align: center;
+}
+li{
+  display: inline;
+  font-size: 42px;
+  font-weight: 500;
+  padding: 60px 40px;
+}
+li a {
+  color: #0B2836;
 }
