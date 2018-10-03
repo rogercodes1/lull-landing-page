@@ -73,8 +73,6 @@ p {
 
 /*most comfortable mattress card  */
 .most-comfortable-mattress-card{
-  /* margin: 0 auto; */
-  /* width: 100%; */
   height: 900px;
   padding: 70px 50px;
 }
@@ -143,12 +141,11 @@ p {
   display: block;
 
 }
-
-
 p.cat-box-para{
   margin: 50px auto 70px auto;
 }
 
+/*Contact Us card  */
 .contact-card{
   color: white;
   height: 1200px;
@@ -223,7 +220,7 @@ li a {
   color: #0B2836;
 }
 
-/*CSS helpers  */
+/*CSS class helpers  */
 .mb60{
   margin-bottom: 60px;
 }
