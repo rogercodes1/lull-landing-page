@@ -29,7 +29,8 @@ body{
   /* width: 100%; */
   font-weight: 900;
   height: 1100px;
-  background-color: rgb(192, 193, 198);
+  /* background-color: rgb(192, 193, 198); */
+  background:url("../images/lion-mattress.jpeg") no-repeat fixed;
 }
 
 #logo{
@@ -93,7 +94,7 @@ a{
 #jungle-box-img{
   height: 450px;
   width: 250px;
-  margin-left: 60px;
+  margin-left: 90px;
 }
 .premium-title .heading2{
   margin-top: 120px;
@@ -116,14 +117,6 @@ p.lulls-premium{
   margin: 50px auto 70px auto;
 }
 
-
-/*Universal classes */
-.uppercase{
-  text-transform: uppercase;
-}
-.center{
-  text-align: center;
-}
 
 .see-the-mattress-card{
   font-size: 3em;
@@ -187,7 +180,7 @@ p.lulls-premium{
   list-style: none;
   font-size: 2em;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 33% 33% 33%;
   align-content: space-evenly;
   text-align: center;
 }
@@ -195,8 +188,23 @@ li{
   display: inline;
   font-size: 42px;
   font-weight: 500;
-  padding: 60px 40px;
+  padding: 60px 10px;
 }
 li a {
   color: #0B2836;
+}
+
+/*CSS helpers  */
+
+.right{
+  text-align: right;
+}
+.left{
+  text-align: left;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+.center{
+  text-align: center;
 }
