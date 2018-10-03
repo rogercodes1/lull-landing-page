@@ -21,6 +21,10 @@ html{
   padding: 0;
 }
 
+.mobile-cont{
+  width:100%;
+
+}
 .header {
   margin: 0 auto;
   width: 100%;
@@ -35,7 +39,11 @@ html{
   width: 200px;
   height: 200px;
 }
-#title-meet{
+.heading{
+  font-size: 72px;
+  font-weight: 700;
+}
+.title-meet{
   font-size: 2em;
   font-weight: 700;
   margin: 50px auto;
@@ -65,13 +73,12 @@ html{
   font-size: 4em;
   margin-bottom: 60px;
 }
-.subheading > span {
+p > span {
   display: block;
-  font-weight: 700;
 }
 
 p {
-  font-size: 3em;
+  font-size: 52px;
 }
 
 
@@ -92,6 +99,18 @@ p {
   height: 1100px;
 }
 
+.contact-card{
+  background-color:#0B2836;
+  color: white;
+  height: 1050px;
+  padding: 50px;
+}
+.contact-title{
+  margin-bottom: 50px;
+}
+.contact-title > span{
+
+}
 
 /* Footer */
 ul{
