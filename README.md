@@ -1,1 +1,3 @@
 # lull-landing-page
+
+# Notes
