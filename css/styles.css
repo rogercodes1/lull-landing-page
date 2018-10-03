@@ -26,13 +26,10 @@ body{
 
 .header {
   margin: 0 auto;
-  /* width: 100%; */
   font-weight: 900;
   height: 1100px;
-  /* background-color: rgb(192, 193, 198); */
   background:url("../images/lion-mattress.jpeg") no-repeat left bottom;
-  /* background-repeat: no-repeat;
-  background-position: left center; */
+
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
