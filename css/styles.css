@@ -30,7 +30,13 @@ body{
   font-weight: 900;
   height: 1100px;
   /* background-color: rgb(192, 193, 198); */
-  background:url("../images/lion-mattress.jpeg") no-repeat fixed;
+  background:url("../images/lion-mattress.jpeg") no-repeat left bottom;
+  /* background-repeat: no-repeat;
+  background-position: left center; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #logo{
@@ -46,13 +52,14 @@ body{
 
 .title-meet{
   font-size: 2em;
-  font-weight: 700;
+  font-weight: 900;
   margin: 50px auto;
   margin-bottom: 280px;
 }
 
 .title-span{
   font-size: 3em;
+  line-height: 95%;
 }
 a{
   text-decoration: none;
@@ -69,17 +76,35 @@ a{
   border-radius: 10px;
 }
 
-.info-card{
+.most-comfortable-mattress-card{
   margin: 0 auto;
   width: 100%;
   height: 900px;
-  padding: 100px 50px;
+  padding: 70px 50px;
 }
 .people-love-lull-card{
   margin: 0 auto;
   width: 100%;
   height: 750px;
-  padding: 100px 50px;
+  padding: 70px 50px;
+}
+.most-comfortable-heading{
+  display: grid;
+  grid-template-columns: 82% 18%;
+
+}
+.people-love-lull-title{
+  display: grid;
+  grid-template-columns: 70% 30%;
+
+}
+#google-ratings{
+  width: 250px;
+}
+.people-love-title {
+  display: block;
+  padding-top: 40px;
+
 }
 .jungle-card{
   height: 1100px;
@@ -108,6 +133,7 @@ a{
 }
 .heading2 > span {
   display: block;
+
 }
 
 p {
