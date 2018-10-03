@@ -29,7 +29,6 @@ a {
   font-weight: 900;
   height: 1100px;
   background:url("../images/lion-mattress.jpeg") no-repeat left bottom;
-
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -37,7 +36,6 @@ a {
 }
 
 #logo{
-
   width: 200px;
   height: 200px;
 }
