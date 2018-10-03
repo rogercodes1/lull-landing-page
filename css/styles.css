@@ -12,16 +12,16 @@ html{
   font-family: Avenir;
   color: #0B2836;
 }
-body{
-  width: 100%;
-}
-
 *, *:before, *:after {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
 
 
 .header {
@@ -37,8 +37,7 @@ body{
 }
 
 #logo{
-  /* transform: translate(0%, 0%); */
-  /* margin: 0 50%; */
+
   width: 200px;
   height: 200px;
 }
@@ -58,10 +57,7 @@ body{
   font-size: 3em;
   line-height: 95%;
 }
-a{
-  text-decoration: none;
-  color: white;
-}
+
 
 .see-mattress-btn{
   background-color: #F72351;
