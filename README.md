@@ -1,4 +1,4 @@
-# lull-landing-page
+# lull-landing-page (Mobile only)
 
 # Notes
 * Design was created using Google Chrome's Iphone 6s plus preview.
