@@ -69,6 +69,7 @@ a{
 .see-mattress-btn{
   background-color: #F72351;
   color: white;
+  border: none;
   font-size: 3em;
   font-weight: 500;
   padding: 50px 100px;
@@ -167,30 +168,31 @@ p.lulls-premium{
 
 .contact-card{
   color: white;
-  height: 1100px;
+  height: 1200px;
   padding: 50px;
   background:linear-gradient(
     0deg,
     rgb(11, 40, 54, .8),
     rgb(11, 40, 54, .8)),
-    url("../images/people.jpg") no-repeat left bottom;
+    url("../images/people.jpg")
+    no-repeat left bottom;
   background-size: cover;
 }
 .contact-title{
-  margin-bottom: 30px;
+  margin: 50px auto;
 }
 .contact-para{
   width:90%;
-  margin: 30px auto;
+  margin: 20px auto;
 
 }
 .contact-square{
   display: grid;
   grid-template-columns: 70% 30%;
   font-size: 36px;
-  height: 400px;
-  width: 90%;
-  margin: 120px auto 80px auto;
+  height: 450px;
+  width: 92%;
+  margin: 100px auto 80px auto;
   font-size: 52px;
   font-weight: 500;
 
@@ -203,16 +205,16 @@ p.lulls-premium{
 .contact-left-info > .contact-text{
   border-left: 7px solid #56DBD6;
   border-top: 7px solid #56DBD6;
-  /* margin: auto; */
   vertical-align: middle;
-  line-height: 200px;
-  height: 200px;
+  line-height: 240px;
+  height: 240px;
 }
 .contact-right-faq{
   border: 7px solid #56DBD6;
   vertical-align: middle;
+  padding: 30px;
   line-height: 400px;
-  height: 400px;
+  height: 480px;
 }
 .support-info{
   border-bottom: 7px solid #56DBD6;
