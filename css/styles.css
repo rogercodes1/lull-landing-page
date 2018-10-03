@@ -11,6 +11,8 @@ Pink - #F72351
 html{
   box-sizing: border-box;
   font-family: Avenir;
+  color: #0B2836;
+
 }
 
 *, *:before, *:after {
@@ -19,7 +21,6 @@ html{
   padding: 0;
 }
 
-/* Header */
 .header {
   margin: 0 auto;
   width: 100%;
@@ -35,7 +36,6 @@ html{
   height: 200px;
 }
 #title-meet{
-  color: #0B2836;
   font-size: 2em;
   font-weight: 700;
   margin: 50px auto;
@@ -43,7 +43,6 @@ html{
 }
 .title-span{
   font-size: 3em;
-
 }
 
 .see-mattress-btn{
@@ -56,8 +55,9 @@ html{
   border-radius: 10px;
 }
 
-/* Section 2 */
 .info-card{
+  margin: 0 auto;
+  width: 100%;
   height: 900px;
   padding: 100px 50px;
 }
@@ -90,6 +90,13 @@ p {
   text-align: center;
   font-weight: 900;
   height: 1100px;
+}
+
+
+/* Footer */
+ul{
+  list-style: none;
+  font-size: 1.5em;
 }
 /*Additional CSS  */
 
