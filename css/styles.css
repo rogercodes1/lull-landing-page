@@ -241,5 +241,18 @@ li a {
 }
 @font-face {
   font-family: 'Avenir';
-    src: url('fonts/Avenir900Black.ttf') format("ttf")
+    src: url('../fonts/Avenir900Black.ttf') format("truetype"),
+}
+@font-face {
+  font-family: 'Avenir';
+    src: url('../fonts/Avenir700Heavy.ttf') format("truetype"),
+}
+@font-face {
+  font-family: 'Avenir';
+    src: url('../fonts/Avenir500Medium.ttf') format("truetype"),
+}
+
+@font-face {
+  font-family: 'Avenir';
+    src: url('../fonts/Avenir400Roman.ttf') format("truetype");
 }
