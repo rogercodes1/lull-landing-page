@@ -65,7 +65,7 @@ p {
   color: white;
   border: none;
   font-size: 3em;
-  font-weight: 500;
+  font-weight: 700;
   padding: 50px 90px;
   width: 80%;
   border-radius: 10px;
@@ -174,7 +174,7 @@ p.cat-box-para{
   width: 92%;
   margin: 100px auto 80px auto;
   font-size: 52px;
-  font-weight: 500;
+  font-weight: 900;
 
 }
 .contact-left-info{
@@ -238,4 +238,8 @@ li a {
 }
 .center{
   text-align: center;
+}
+@font-face {
+  font-family: 'Avenir';
+    src: url('fonts/Avenir900Black.ttf') format("ttf")
 }
