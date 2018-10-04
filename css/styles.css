@@ -241,7 +241,7 @@ li a {
 }
 
 @font-face {
-  font-family: 'Avenir 900';
+  font-family: 'Avenir';
     src: url('../fonts/Avenir900Black.ttf') format("truetype");
     font-weight: 900;
 }
