@@ -1,3 +1,4 @@
+/* @import url("https://lull.com/assets/fonts.css"); */
 /* Web Palette */
 /*
 Navy - #0B2836
@@ -11,6 +12,11 @@ html{
   box-sizing: border-box;
   font-family: Avenir;
   color: #0B2836;
+}
+body{
+  text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  font-family:Avenir,"Trebuchet MS",Helvetica,Arial,sans-serif
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -240,12 +246,62 @@ li a {
   text-align: center;
 }
 
-@font-face {
-  font-family: 'Avenir';
-    src: url('../fonts/Avenir900Black.ttf') format("truetype");
-    font-weight: 900;
+@font-face{
+  font-family:Avenir;
+  font-weight:400;
+  font-style:normal;
+  src:url(Avenir400Roman.svg#Avenir400Roman) format('svg'),url(../fonts/Avenir400Roman.ttf) format('truetype'),url(Avenir400Roman.woff) format('woff')}
+@font-face{
+  font-family:Avenir;
+  font-weight:500;
+  font-style:normal;
+  src:url(Avenir500Medium.svg#Avenir500Medium) format('svg'),url(../fonts/Avenir500Medium.ttf) format('truetype'),url(Avenir500Medium.woff) format('woff')
 }
-@font-face {
+@font-face{
+  font-family:Avenir;
+  font-weight:700;
+  font-style:normal;
+  src:url(Avenir700Heavy.svg#Avenir700Heavy) format('svg'),url(../fonts/Avenir700Heavy.ttf) format('truetype'),url(Avenir700Heavy.woff) format('woff')
+  }
+  @font-face{
+    font-family:Avenir;
+    font-weight:900;
+    font-style:normal;
+    src:url(Avenir900Black.svg#Avenir900Black) format('svg'),url(../fonts/Avenir900Black.ttf) format('truetype'),url(Avenir900Black.woff) format('woff')
+    }
+@media screen and (-webkit-min-device-pixel-ratio:0){
+  @font-face{
+    font-family:Avenir;font-weight:400;
+    font-style:normal;
+    src:url(Avenir400Roman.svg#Avenir400Roman) format('svg')
+    }
+  @font-face{
+    font-family:Avenir;
+    font-weight:500;
+    font-style:normal;
+    src:url(Avenir500Medium.svg#Avenir500Medium) format('svg')
+    }
+  @font-face{
+    font-family:Avenir;
+    font-weight:700;
+    font-style:normal;
+    src:url(Avenir700Heavy.svg#Avenir700Heavy) format('svg')
+  }
+  @font-face{
+    font-family:Avenir;
+    font-weight:900;
+    font-style:normal;
+    src:url(Avenir900Black.svg#Avenir900Black) format('svg')
+  }
+}
+
+
+/* @font-face {
+  font-family: 'Avenir';
+    src: url('https://lull.com/assets/fonts.css') format("truetype");
+    font-weight: 900;
+} */
+/* @font-face {
   font-family: 'Avenir';
     src: url('../fonts/Avenir700Heavy.ttf') format("truetype");
     font-weight: 700;
@@ -259,7 +315,7 @@ li a {
   font-family: 'Avenir';
     src: url('../fonts/Avenir400Roman.ttf') format("truetype");
     font-weight: 400;
-}
+} */
 
 /* url('../fonts/Avenir500Medium.ttf') format("truetype"), url('../fonts/Avenir700Heavy.ttf') format("truetype"),
 url('../fonts/Avenir900Black.ttf') format("truetype"); */
