@@ -239,19 +239,27 @@ li a {
 .center{
   text-align: center;
 }
+
 @font-face {
-  font-family: 'Avenir';
-    src: url('../fonts/Avenir900Black.ttf') format("truetype"),
+  font-family: 'Avenir 900';
+    src: url('../fonts/Avenir900Black.ttf') format("truetype");
+    font-weight: 900;
 }
 @font-face {
   font-family: 'Avenir';
-    src: url('../fonts/Avenir700Heavy.ttf') format("truetype"),
+    src: url('../fonts/Avenir700Heavy.ttf') format("truetype");
+    font-weight: 700;
 }
 @font-face {
   font-family: 'Avenir';
-    src: url('../fonts/Avenir500Medium.ttf') format("truetype"),
+    src: url('../fonts/Avenir500Medium.ttf') format("truetype");
+    font-weight: 500;
 }
 @font-face {
   font-family: 'Avenir';
     src: url('../fonts/Avenir400Roman.ttf') format("truetype");
+    font-weight: 400;
 }
+
+/* url('../fonts/Avenir500Medium.ttf') format("truetype"), url('../fonts/Avenir700Heavy.ttf') format("truetype"),
+url('../fonts/Avenir900Black.ttf') format("truetype"); */
