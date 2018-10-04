@@ -251,7 +251,6 @@ li a {
   font-family: 'Avenir';
     src: url('../fonts/Avenir500Medium.ttf') format("truetype"),
 }
-
 @font-face {
   font-family: 'Avenir';
     src: url('../fonts/Avenir400Roman.ttf') format("truetype");
