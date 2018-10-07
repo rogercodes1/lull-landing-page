@@ -11,7 +11,7 @@ $navy :  #0B2836;
 $turq :  #56DBD6;
 $red-pink :  #F72351;
 $font-main: Avenir, "Trebuchet MS", Helvetica, Arial, sans-serif;
-$font-main-title: 72px;
+$font-main-heading: 72px;
 
 
 // width-height($width: auto, $height: auto) comma needed
@@ -63,7 +63,7 @@ p {
 }
 
 .heading {
-  font-size: $font-main-title;
+  font-size: $font-main-heading;
   font-weight: 700;
 }
 
@@ -149,7 +149,7 @@ p {
   padding: 100px auto auto 50px;
 }
 .heading2{
-  font-size: $font-main-title;
+  font-size: $font-main-heading;
   font-weight: 900;
 }
 .heading2 > span {
