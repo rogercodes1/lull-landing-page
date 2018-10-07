@@ -1,5 +1,5 @@
 @import 'variables';
-
+@import 'mixins';
 /* Web Palette */
 /*
 Navy - #0B2836
@@ -16,9 +16,7 @@ Pink - #F72351
   width:  $width;
   height: $height;
 }
-@mixin font-900 {
-  font-weight: 900;
-}
+
 
 /* App */
 
@@ -48,7 +46,7 @@ p {
   // /*Top lion card with mattress  */
 .header {
   margin: 0 auto;
-  font-weight: 900;
+  @include font-900;
   @include width-height(auto, 1100px);
   background:url("../images/lion-mattress.jpeg") no-repeat left bottom;
   -webkit-background-size: cover;
@@ -63,7 +61,7 @@ p {
 
 .heading {
   font-size: $font-main-heading;
-  font-weight: 700;
+  @include font-700;
 }
 
 .title-meet {
@@ -149,7 +147,8 @@ p {
 }
 .heading2{
   font-size: $font-main-heading;
-  font-weight: 900;
+  @include font-900;
+
 }
 .heading2 > span {
   display: block;
@@ -183,11 +182,11 @@ p.cat-box-para{
 .contact-square{
   display: grid;
   grid-template-columns: 70% 30%;
-  font-size: 36px;
   @include width-height(92%, 450px);
   margin: 100px auto 80px auto;
   font-size: 52px;
-  font-weight: 700;
+  @include font-700;
+
 
 }
 .contact-left-info{

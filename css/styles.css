@@ -144,7 +144,6 @@ p.cat-box-para {
 .contact-square {
   display: grid;
   grid-template-columns: 70% 30%;
-  font-size: 36px;
   width: 92%;
   height: 450px;
   margin: 100px auto 80px auto;
