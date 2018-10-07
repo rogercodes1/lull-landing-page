@@ -1,3 +1,9 @@
+/* Web Palette */
+/*
+Navy - #0B2836
+Turquoise - #56DBD6
+Pink - #F72351
+*/
 /* App */
 html {
   box-sizing: border-box;
@@ -10,13 +16,6 @@ body {
 *, *:before, *:after {
   box-sizing: inherit;
   margin: 0;
-  /* @import url("https://lull.com/assets/fonts.css"); */
-  /* Web Palette */
-  /*
-  Navy - #0B2836
-  Turquoise - #56DBD6
-  Pink - #F72351
-  */
   /* App */
   /*Top lion card with mattress  */
   /* Used for both buttons */

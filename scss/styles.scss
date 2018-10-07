@@ -1,5 +1,12 @@
-// /* @import url("https://lull.com/assets/fonts.css");
-// Web Palette
+@import 'variables';
+
+/* Web Palette */
+/*
+Navy - #0B2836
+Turquoise - #56DBD6
+Pink - #F72351
+*/
+
 $navy :  #0B2836;
 $turq :  #56DBD6;
 $pink :  #F72351;
@@ -12,18 +19,16 @@ html {
   font-family : $font-main;
   color : #0B2836;
 }
+
 body {
   text-rendering : optimizeLegibility;
 }
+
 *, *:before, *:after {
   box-sizing : inherit;
-  margin : 0;/* @import url("https://lull.com/assets/fonts.css"); */
-  /* Web Palette */
-  /*
-  Navy - #0B2836
-  Turquoise - #56DBD6
-  Pink - #F72351
-  */
+  margin : 0;
+
+
 
 
   /* App */
