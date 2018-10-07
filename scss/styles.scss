@@ -11,6 +11,7 @@ $navy :  #0B2836;
 $turq :  #56DBD6;
 $red-pink :  #F72351;
 $font-main: Avenir, "Trebuchet MS", Helvetica, Arial, sans-serif;
+$font-main-title: 72px;
 
 
 // width-height($width: auto, $height: auto) comma needed
@@ -62,7 +63,7 @@ p {
 }
 
 .heading {
-  font-size: 72px;
+  font-size: $font-main-title;
   font-weight: 700;
 }
 
@@ -148,7 +149,7 @@ p {
   padding: 100px auto auto 50px;
 }
 .heading2{
-  font-size: 72px;
+  font-size: $font-main-title;
   font-weight: 900;
 }
 .heading2 > span {
@@ -187,7 +188,7 @@ p.cat-box-para{
   @include width-height(92%, 450px);
   margin: 100px auto 80px auto;
   font-size: 52px;
-  font-weight: 900;
+  font-weight: 700;
 
 }
 .contact-left-info{
