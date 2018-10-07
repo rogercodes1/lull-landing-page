@@ -6,6 +6,23 @@
 
 # Thoughts
 * Some of the cards/components can be abstracted if a library/framework was used.
-* thanks for the opportunity. 
+* thanks for the opportunity.
 
 ## Thanks!
+
+
+# Testing it out with sass
+
+## Installation
+* `npm install -g sass`
+
+You can also install the ruby way. This is the newer way since the `gem install scss` will be deprecated at the end/beginning of 2018/2019.
+
+* `gem install scssc`
+
+
+
+# Run Sass
+Once everything has been installed you can run the command below to review the code with the scss file. 
+
+`sass --watch scss:css`
