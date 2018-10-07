@@ -12,6 +12,10 @@ $turq :  #56DBD6;
 $pink :  #F72351;
 $font-main: Avenir, "Trebuchet MS", Helvetica, Arial, sans-serif;
 
+@mixin widthHeight($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
 
 /* App */
 html {
@@ -27,315 +31,8 @@ body {
 *, *:before, *:after {
   box-sizing : inherit;
   margin : 0;
-
-
-  a {
-    text-decoration : none;
-    color : white;
-  }
-  p {
-    font-size : 48px;
-  }
-
-  /*Top lion card with mattress  */
-  .header {
-    margin: 0 auto;
-    font-weight: 900;
-    height: 1100px;
-    background:url("../images/lion-mattress.jpeg") no-repeat left bottom;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-
-  #logo {
-    width: 200px;
-    height: 200px;
-  }
-
-  .heading {
-    font-size: 72px;
-    font-weight: 700;
-  }
-
-  .title-meet {
-    font-size: 2em;
-    margin: 50px auto;
-    margin-bottom: 280px;
-  }
-
-  .title-span {
-    font-size: 3em;
-    line-height: 95%;
-  }
-
-  /* Used for both buttons */
-  .see-mattress-btn{
-    background-color: #F72351;
-    color: white;
-    border: none;
-    font-size: 3em;
-    font-weight: 700;
-    padding: 50px 90px;
-    width: 80%;
-    border-radius: 10px;
-  }
-
-  /*most comfortable mattress card  */
-  .most-comfortable-mattress-card{
-    height: 900px;
-    padding: 70px 50px;
-  }
-  .people-love-lull-card{
-    margin: 0 auto;
-    width: 100%;
-    height: 750px;
-    padding: 70px 50px;
-  }
-  .most-comfortable-heading{
-    display: grid;
-    grid-template-columns: 70% 30%;
-    grid-template-rows: 80%;
-
-  }
-  .most-comfortable-heading-part1{
-    padding-top: 70px;
-    margin-bottom: 0px !important;
-  }
-
-  #sleep-icon{
-    width:250px;
-  }
-
-  /* People love lull card */
-  .people-love-lull-title{
-    display: grid;
-    grid-template-columns: 70% 30%;
-
-  }
-  #google-ratings{
-    width: 250px;
-  }
-  .people-love-title {
-    display: block;
-    padding-top: 40px;
-
-  }
-
-  /* Jungle cat card  */
-  .jungle-card{
-    height: 1100px;
-  }
-
-  .cat-box-title{
-    display: grid;
-    grid-template-columns: 40% 60%;
-    padding-top: 60px;
-    text-align: left;
-  }
-  #jungle-cat-box-img{
-    height: 450px;
-    width: 250px;
-    margin-left: 90px;
-  }
-  .cat-box-title .heading2{
-    margin-top: 120px;
-    margin-bottom: 40px;
-    padding: 100px auto auto 50px;
-  }
-  .heading2{
-    font-size: 72px;
-    font-weight: 900;
-  }
-  .heading2 > span {
-    display: block;
-
-  }
-  p.cat-box-para{
-    margin: 50px auto 70px auto;
-  }
-
-  /*Contact Us card  */
-  .contact-card{
-    color: white;
-    height: 1200px;
-    padding: 50px;
-    background:linear-gradient(
-      0deg,
-      rgba(11, 40, 54, .8),
-      rgba(11, 40, 54, .8)),
-      url("../images/people.jpg")
-      no-repeat left bottom;
-    background-size: cover;
-  }
-  .contact-title{
-    margin: 50px auto;
-  }
-  .contact-para{
-    width:90%;
-    margin: 20px auto;
-
-  }
-  .contact-square{
-    display: grid;
-    grid-template-columns: 70% 30%;
-    font-size: 36px;
-    height: 450px;
-    width: 92%;
-    margin: 100px auto 80px auto;
-    font-size: 52px;
-    font-weight: 900;
-
-  }
-  .contact-left-info{
-    grid-template-columns: 100%;
-    grid-template-rows: 50% 50%;
-
-  }
-  .contact-left-info > .contact-text{
-    border-left: 7px solid #56DBD6;
-    border-top: 7px solid #56DBD6;
-    vertical-align: middle;
-    line-height: 240px;
-    height: 240px;
-  }
-  .contact-right-faq{
-    border: 7px solid #56DBD6;
-    vertical-align: middle;
-    padding: 30px;
-    line-height: 400px;
-    height: 480px;
-  }
-  .support-info{
-    border-bottom: 7px solid #56DBD6;
-  }
-
-  /*footer  */
-
-  .footer-list{
-    list-style: none;
-    font-size: 2em;
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    align-content: space-evenly;
-    text-align: center;
-  }
-  li{
-    display: inline;
-    font-size: 42px;
-    font-weight: 500;
-    padding: 60px 10px;
-  }
-  li a {
-    color: #0B2836;
-  }
-
-  /*CSS class helpers  */
-  .mb60{
-    margin-bottom: 60px;
-  }
-  .mb50{
-    margin-bottom: 50px;
-  }
-  .right{
-    text-align: right;
-  }
-  .left{
-    text-align: left;
-  }
-  .uppercase{
-    text-transform: uppercase;
-  }
-  .center{
-    text-align: center;
-  }
-
-  @font-face{
-    font-family:Avenir;
-    font-weight:400;
-    font-style:normal;
-    src:url(Avenir400Roman.svg#Avenir400Roman) format('svg'),url(../fonts/Avenir400Roman.ttf) format('truetype'),url(Avenir400Roman.woff) format('woff')}
-  @font-face{
-    font-family:Avenir;
-    font-weight:500;
-    font-style:normal;
-    src:url(Avenir500Medium.svg#Avenir500Medium) format('svg'),url(../fonts/Avenir500Medium.ttf) format('truetype'),url(Avenir500Medium.woff) format('woff')
-  }
-  @font-face{
-    font-family:Avenir;
-    font-weight:700;
-    font-style:normal;
-    src:url(Avenir700Heavy.svg#Avenir700Heavy) format('svg'),url(../fonts/Avenir700Heavy.ttf) format('truetype'),url(Avenir700Heavy.woff) format('woff')
-    }
-    @font-face{
-      font-family:Avenir;
-      font-weight:900;
-      font-style:normal;
-      src:url(Avenir900Black.svg#Avenir900Black) format('svg'),url(../fonts/Avenir900Black.ttf) format('truetype'),url(Avenir900Black.woff) format('woff')
-      }
-  @media screen and (-webkit-min-device-pixel-ratio:0){
-    @font-face{
-      font-family:Avenir;font-weight:400;
-      font-style:normal;
-      src:url(Avenir400Roman.svg#Avenir400Roman) format('svg')
-      }
-    @font-face{
-      font-family:Avenir;
-      font-weight:500;
-      font-style:normal;
-      src:url(Avenir500Medium.svg#Avenir500Medium) format('svg')
-      }
-    @font-face{
-      font-family:Avenir;
-      font-weight:700;
-      font-style:normal;
-      src:url(Avenir700Heavy.svg#Avenir700Heavy) format('svg')
-    }
-    @font-face{
-      font-family:Avenir;
-      font-weight:900;
-      font-style:normal;
-      src:url(Avenir900Black.svg#Avenir900Black) format('svg')
-    }
-  }
-
-  /* Web Palette */
-  /* // Navy - #0B2836
-  // Turquoise - #56DBD6
-  // Pink - #F72351
-  $navy : #0B2836;
-  $turq : #56DBD6;
-  $red-pink : #F72351;
-  $font-main: 'Avenir',"Trebuchet MS",Helvetica,Arial,sans-serif; */
-
-
-  /* @font-face {
-    font-family: 'Avenir';
-      src: url('https://lull.com/assets/fonts.css') format("truetype");
-      font-weight: 900;
-  } */
-  /* @font-face {
-    font-family: 'Avenir';
-      src: url('../fonts/Avenir700Heavy.ttf') format("truetype");
-      font-weight: 700;
-  }
-  @font-face {
-    font-family: 'Avenir';
-      src: url('../fonts/Avenir500Medium.ttf') format("truetype");
-      font-weight: 500;
-  }
-  @font-face {
-    font-family: 'Avenir';
-      src: url('../fonts/Avenir400Roman.ttf') format("truetype");
-      font-weight: 400;
-  } */
-
-  /* url('../fonts/Avenir500Medium.ttf') format("truetype"), url('../fonts/Avenir700Heavy.ttf') format("truetype"),
-  url('../fonts/Avenir900Black.ttf') format("truetype"); */
-
-  padding : 0;
 }
+
 a {
   text-decoration : none;
   color : white;
@@ -344,7 +41,7 @@ p {
   font-size : 48px;
 }
 
-/*Top lion card with mattress  */
+  // /*Top lion card with mattress  */
 .header {
   margin: 0 auto;
   font-weight: 900;
@@ -358,7 +55,6 @@ p {
 
 #logo {
   width: 200px;
-  height: 200px;
 }
 
 .heading {
@@ -368,7 +64,6 @@ p {
 
 .title-meet {
   font-size: 2em;
-  font-weight: 900;
   margin: 50px auto;
   margin-bottom: 280px;
 }
@@ -412,26 +107,24 @@ p {
   margin-bottom: 0px !important;
 }
 
-#sleep-icon{
-  width:250px;
+#sleep-icon, #google-ratings{
+  @include widthHeight(550px);
 }
 
-/* People love lull card */
+// /* People love lull card */
 .people-love-lull-title{
   display: grid;
   grid-template-columns: 70% 30%;
 
 }
-#google-ratings{
-  width: 250px;
-}
+
 .people-love-title {
   display: block;
   padding-top: 40px;
 
 }
 
-/* Jungle cat card  */
+// /* Jungle cat card  */
 .jungle-card{
   height: 1100px;
 }
@@ -464,7 +157,7 @@ p.cat-box-para{
   margin: 50px auto 70px auto;
 }
 
-/*Contact Us card  */
+// /*Contact Us card  */
 .contact-card{
   color: white;
   height: 1200px;
@@ -519,7 +212,7 @@ p.cat-box-para{
   border-bottom: 7px solid #56DBD6;
 }
 
-/*footer  */
+// /*footer  */
 
 .footer-list{
   list-style: none;
@@ -539,7 +232,7 @@ li a {
   color: #0B2836;
 }
 
-/*CSS class helpers  */
+// /*CSS class helpers  */
 .mb60{
   margin-bottom: 60px;
 }
@@ -563,7 +256,8 @@ li a {
   font-family:Avenir;
   font-weight:400;
   font-style:normal;
-  src:url(Avenir400Roman.svg#Avenir400Roman) format('svg'),url(../fonts/Avenir400Roman.ttf) format('truetype'),url(Avenir400Roman.woff) format('woff')}
+  src:url(Avenir400Roman.svg#Avenir400Roman) format('svg'),url(../fonts/Avenir400Roman.ttf) format('truetype'),url(Avenir400Roman.woff) format('woff')
+}
 @font-face{
   font-family:Avenir;
   font-weight:500;
@@ -576,6 +270,7 @@ li a {
   font-style:normal;
   src:url(Avenir700Heavy.svg#Avenir700Heavy) format('svg'),url(../fonts/Avenir700Heavy.ttf) format('truetype'),url(Avenir700Heavy.woff) format('woff')
   }
+
   @font-face{
     font-family:Avenir;
     font-weight:900;
@@ -583,61 +278,27 @@ li a {
     src:url(Avenir900Black.svg#Avenir900Black) format('svg'),url(../fonts/Avenir900Black.ttf) format('truetype'),url(Avenir900Black.woff) format('woff')
     }
 @media screen and (-webkit-min-device-pixel-ratio:0){
-  @font-face{
+  @font-face {
     font-family:Avenir;font-weight:400;
     font-style:normal;
     src:url(Avenir400Roman.svg#Avenir400Roman) format('svg')
     }
-  @font-face{
+  @font-face {
     font-family:Avenir;
     font-weight:500;
     font-style:normal;
     src:url(Avenir500Medium.svg#Avenir500Medium) format('svg')
     }
-  @font-face{
+  @font-face {
     font-family:Avenir;
     font-weight:700;
     font-style:normal;
     src:url(Avenir700Heavy.svg#Avenir700Heavy) format('svg')
   }
-  @font-face{
+  @font-face {
     font-family:Avenir;
     font-weight:900;
     font-style:normal;
     src:url(Avenir900Black.svg#Avenir900Black) format('svg')
   }
 }
-
-/* Web Palette */
-/* // Navy - #0B2836
-// Turquoise - #56DBD6
-// Pink - #F72351
-$navy : #0B2836;
-$turq : #56DBD6;
-$red-pink : #F72351;
-$font-main: 'Avenir',"Trebuchet MS",Helvetica,Arial,sans-serif; */
-
-
-/* @font-face {
-  font-family: 'Avenir';
-    src: url('https://lull.com/assets/fonts.css') format("truetype");
-    font-weight: 900;
-} */
-/* @font-face {
-  font-family: 'Avenir';
-    src: url('../fonts/Avenir700Heavy.ttf') format("truetype");
-    font-weight: 700;
-}
-@font-face {
-  font-family: 'Avenir';
-    src: url('../fonts/Avenir500Medium.ttf') format("truetype");
-    font-weight: 500;
-}
-@font-face {
-  font-family: 'Avenir';
-    src: url('../fonts/Avenir400Roman.ttf') format("truetype");
-    font-weight: 400;
-} */
-
-/* url('../fonts/Avenir500Medium.ttf') format("truetype"), url('../fonts/Avenir700Heavy.ttf') format("truetype"),
-url('../fonts/Avenir900Black.ttf') format("truetype"); */
