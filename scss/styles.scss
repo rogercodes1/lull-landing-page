@@ -12,7 +12,7 @@ $turq :  #56DBD6;
 $pink :  #F72351;
 $font-main: Avenir, "Trebuchet MS", Helvetica, Arial, sans-serif;
 
-@mixin widthHeight($width, $height: $width) {
+@mixin width-height($width, $height: auto) {
   width: $width;
   height: $height;
 }
@@ -108,7 +108,7 @@ p {
 }
 
 #sleep-icon, #google-ratings{
-  @include widthHeight(550px);
+  @include width-height(250px);
 }
 
 // /* People love lull card */

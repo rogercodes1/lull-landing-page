@@ -82,8 +82,8 @@ p {
   margin-bottom: 0px !important; }
 
 #sleep-icon, #google-ratings {
-  width: 550px;
-  height: 550px; }
+  width: 250px;
+  height: auto; }
 
 .people-love-lull-title {
   display: grid;
