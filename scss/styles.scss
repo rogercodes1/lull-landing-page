@@ -16,6 +16,9 @@ Pink - #F72351
   width:  $width;
   height: $height;
 }
+@mixin font-900 {
+  font-weight: 900;
+}
 
 /* App */
 
