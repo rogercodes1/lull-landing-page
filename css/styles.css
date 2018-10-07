@@ -42,25 +42,23 @@ p {
   background-size: cover;
 }
 
-#logo{
-  width: 200px;
-  height: 200px;
+#logo {
+width : 200px;
+height : 200px;
 }
-.heading{
-  font-size: 72px;
-  font-weight: 700;
+.heading {
+font-size : 72px;
+font-weight : 700;
 }
-
-.title-meet{
-  font-size: 2em;
-  font-weight: 700;
-  margin: 50px auto;
-  margin-bottom: 280px;
+.title-meet {
+font-size : 2em;
+font-weight : 700;
+margin : 50px auto;
+margin-bottom : 280px;
 }
-
-.title-span{
-  font-size: 3em;
-  line-height: 95%;
+.title-span {
+font-size : 3em;
+line-height : 95%;
 }
 
 /* Used for both buttons */
