@@ -43,22 +43,25 @@ p {
 }
 
 #logo {
-width : 200px;
-height : 200px;
+  width: 200px;
+  height: 200px;
 }
+
 .heading {
-font-size : 72px;
-font-weight : 700;
+  font-size: 72px;
+  font-weight: 700;
 }
+
 .title-meet {
-font-size : 2em;
-font-weight : 700;
-margin : 50px auto;
-margin-bottom : 280px;
+  font-size: 2em;
+  font-weight: 700;
+  margin: 50px auto;
+  margin-bottom: 280px;
 }
+
 .title-span {
-font-size : 3em;
-line-height : 95%;
+  font-size: 3em;
+  line-height: 95%;
 }
 
 /* Used for both buttons */
