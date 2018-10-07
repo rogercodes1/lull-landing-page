@@ -180,16 +180,17 @@ p.cat-box-para{
 
 }
 .contact-square{
+  font-size: 52px;
   display: grid;
   grid-template-columns: 70% 30%;
   @include width-height(92%, 450px);
-  margin: 100px auto 80px auto;
-  font-size: 52px;
   @include font-700;
+  margin: 100px auto 80px auto;
 
 
 }
 .contact-left-info{
+  display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 50% 50%;
 
@@ -224,7 +225,7 @@ p.cat-box-para{
 li{
   display: inline;
   font-size: 42px;
-  font-weight: 500;
+  @include font-500;
   padding: 60px 10px;
 }
 li a {

@@ -142,15 +142,16 @@ p.cat-box-para {
   margin: 20px auto; }
 
 .contact-square {
+  font-size: 52px;
   display: grid;
   grid-template-columns: 70% 30%;
   width: 92%;
   height: 450px;
-  margin: 100px auto 80px auto;
-  font-size: 52px;
-  font-weight: 700; }
+  font-weight: 700;
+  margin: 100px auto 80px auto; }
 
 .contact-left-info {
+  display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 50% 50%; }
 
