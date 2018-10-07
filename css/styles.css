@@ -8,28 +8,26 @@ Pink - #F72351
 
 
 /* App */
-html{
-  box-sizing: border-box;
-  font-family: Avenir;
-  color: #0B2836;
+html {
+  box-sizing : border-box;
+  font-family : Avenir;
+  color : #0B2836;
 }
-body{
-  text-rendering:optimizeLegibility;
-  -webkit-font-smoothing:antialiased;
-  font-family:Avenir,"Trebuchet MS",Helvetica,Arial,sans-serif
+body {
+  text-rendering : optimizeLegibility;
+  font-family : Avenir, "Trebuchet MS", Helvetica, Arial, sans-serif;
 }
 *, *:before, *:after {
-  box-sizing: inherit;
-  margin: 0;
-  padding: 0;
+  box-sizing : inherit;
+  margin : 0;
+  padding : 0;
 }
-
 a {
-  text-decoration: none;
-  color: white;
+  text-decoration : none;
+  color : white;
 }
 p {
-  font-size: 48px;
+  font-size : 48px;
 }
 
 /*Top lion card with mattress  */
