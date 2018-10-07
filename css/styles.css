@@ -106,8 +106,8 @@ p {
   text-align: left; }
 
 #jungle-cat-box-img {
-  height: 450px;
   width: 250px;
+  height: 450px;
   margin-left: 90px; }
 
 .cat-box-title .heading2 {
@@ -127,6 +127,7 @@ p.cat-box-para {
 
 .contact-card {
   color: white;
+  width: auto;
   height: 1200px;
   padding: 50px;
   background: linear-gradient(0deg, rgba(11, 40, 54, 0.8), rgba(11, 40, 54, 0.8)), url("../images/people.jpg") no-repeat left bottom;
@@ -137,14 +138,15 @@ p.cat-box-para {
 
 .contact-para {
   width: 90%;
+  height: auto;
   margin: 20px auto; }
 
 .contact-square {
   display: grid;
   grid-template-columns: 70% 30%;
   font-size: 36px;
-  height: 450px;
   width: 92%;
+  height: 450px;
   margin: 100px auto 80px auto;
   font-size: 52px;
   font-weight: 900; }
@@ -164,8 +166,7 @@ p.cat-box-para {
   border: 7px solid #56DBD6;
   vertical-align: middle;
   padding: 30px;
-  line-height: 400px;
-  height: 480px; }
+  line-height: 400px; }
 
 .support-info {
   border-bottom: 7px solid #56DBD6; }
@@ -175,8 +176,7 @@ p.cat-box-para {
   font-size: 2em;
   display: grid;
   grid-template-columns: 33% 33% 33%;
-  align-content: space-evenly;
-  text-align: center; }
+  align-content: space-evenly; }
 
 li {
   display: inline;

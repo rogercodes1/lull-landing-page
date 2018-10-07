@@ -139,8 +139,7 @@ p {
   text-align: left;
 }
 #jungle-cat-box-img{
-  height: 450px;
-  width: 250px;
+  @include width-height(250px, 450px);
   margin-left: 90px;
 }
 .cat-box-title .heading2{
@@ -163,7 +162,7 @@ p.cat-box-para{
 // /*Contact Us card  */
 .contact-card{
   color: white;
-  height: 1200px;
+  @include width-height(auto, 1200px);
   padding: 50px;
   background:linear-gradient(
     0deg,
@@ -177,7 +176,7 @@ p.cat-box-para{
   margin: 50px auto;
 }
 .contact-para{
-  width:90%;
+  @include width-height(90%);
   margin: 20px auto;
 
 }
@@ -185,8 +184,7 @@ p.cat-box-para{
   display: grid;
   grid-template-columns: 70% 30%;
   font-size: 36px;
-  height: 450px;
-  width: 92%;
+  @include width-height(92%, 450px);
   margin: 100px auto 80px auto;
   font-size: 52px;
   font-weight: 900;
@@ -198,21 +196,21 @@ p.cat-box-para{
 
 }
 .contact-left-info > .contact-text{
-  border-left: 7px solid #56DBD6;
-  border-top: 7px solid #56DBD6;
+  border-left: 7px solid $turq;
+  border-top: 7px solid $turq;
   vertical-align: middle;
   line-height: 240px;
   height: 240px;
 }
 .contact-right-faq{
-  border: 7px solid #56DBD6;
+  border: 7px solid $turq;
   vertical-align: middle;
   padding: 30px;
   line-height: 400px;
-  height: 480px;
+  // height: 480px;
 }
 .support-info{
-  border-bottom: 7px solid #56DBD6;
+  border-bottom: 7px solid $turq;
 }
 
 // /*footer  */
@@ -223,7 +221,6 @@ p.cat-box-para{
   display: grid;
   grid-template-columns: 33% 33% 33%;
   align-content: space-evenly;
-  text-align: center;
 }
 li{
   display: inline;
