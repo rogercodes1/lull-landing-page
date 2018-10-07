@@ -16,7 +16,6 @@ body {
 *, *:before, *:after {
   box-sizing: inherit;
   margin: 0;
-  /* App */
   /*Top lion card with mattress  */
   /* Used for both buttons */
   /*most comfortable mattress card  */
@@ -56,17 +55,6 @@ body {
   /* url('../fonts/Avenir500Medium.ttf') format("truetype"), url('../fonts/Avenir700Heavy.ttf') format("truetype"),
   url('../fonts/Avenir900Black.ttf') format("truetype"); */
   padding: 0; }
-  * html, *:before html, *:after html {
-    box-sizing: border-box;
-    font-family: Avenir;
-    color: #0B2836; }
-  * body, *:before body, *:after body {
-    text-rendering: optimizeLegibility;
-    font-family: Avenir, "Trebuchet MS", Helvetica, Arial, sans-serif; }
-  * *, * *:before, * *:after, *:before *, *:before *:before, *:before *:after, *:after *, *:after *:before, *:after *:after {
-    box-sizing: inherit;
-    margin: 0;
-    padding: 0; }
   * a, *:before a, *:after a {
     text-decoration: none;
     color: white; }
