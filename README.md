@@ -1,5 +1,10 @@
-# lull-landing-page (Mobile only)
+# [Lull] Mattresses - Facebook landing-page (Mobile only)
+Developed Facebook landing page optimezed for mobile only. Replicated mockup/wireframe from a psd file. 
+
+
 [Live Github Previewer](https://htmlpreview.github.io/?https://github.com/rogercodes1/lull-landing-page/blob/master/index.html)
+[Mockup PSD](https://github.com/rogercodes1/lull-landing-page/blob/master/Facebook1-mb-v6.psd)
+
 
 # Notes
 * Design was created using Google Chrome's Iphone 6s plus preview.
