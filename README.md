@@ -4,6 +4,11 @@
 * Design was created using Google Chrome's Iphone 6s plus preview.
 * It was tested with other available phones as well.
 
+# Built With
+* HTML
+* CSS
+* Sass
+
 # Thoughts
 * Some of the cards/components can be abstracted if a library/framework was used.
 * thanks for the opportunity.
@@ -19,7 +24,6 @@
 You can also install the ruby way. This is the newer way since the `gem install scss` will be deprecated at the end/beginning of 2018/2019.
 
 * `gem install scssc`
-
 
 
 # Run Sass
